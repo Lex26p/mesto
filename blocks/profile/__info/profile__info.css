@@ -1,0 +1,14 @@
+.profile__info{
+  position: relative;
+  max-width: min(calc(189px + ((100vw - 320px) / 1.67)), 474px);
+  margin: 26px 0 0 0;
+  padding: 0 min(calc(47px + ((100vw - 320px) / 68.57)), 61px);
+}
+
+@media screen and (min-width: 800px) {
+  .profile__info{
+    margin: auto 0 auto 30px;
+    max-width: min(calc(260px + ((100vw - 800px) / 2)), 500px);
+    padding: 0 min(calc(47px + ((100vw - 320px) / 68.57)), 61px) 0 0;
+  }
+}

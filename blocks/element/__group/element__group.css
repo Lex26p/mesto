@@ -1,0 +1,17 @@
+.element__group{
+  margin: 0 21px 0 0;
+  padding: 0;
+  background: rgba(0, 0, 0, 0);
+  background-image: url(../../../images/group.svg);
+  width: 22px;
+  height: 19px;
+  background-size: cover;
+  transition: opacity 0.3s ease-out;
+  outline: none;
+  border-style: none;
+  cursor: pointer;
+}
+
+.element__group:not(.element__group_active):hover{
+  opacity: 0.5;
+}

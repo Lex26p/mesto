@@ -1,0 +1,5 @@
+.footer{
+  margin: min(calc(48px + ((100vw - 320px) / 50.52)), 67px) auto 0 auto;
+  padding: 0 0 min(calc(36px + ((100vw - 320px) / 40)), 60px) 0;
+  width: min(calc(282px + ((100vw - 320px) / 1.6)), 880px);
+}
