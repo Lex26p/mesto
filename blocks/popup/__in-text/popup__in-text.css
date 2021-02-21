@@ -1,7 +1,7 @@
 .popup__in-text{
   display: block;
   width: min(calc(238px + ((100vw - 320px) / 1.6)), 358px);
-  height: 27px;
+  min-height: 27px;
   outline: none;
   border-style: none;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);

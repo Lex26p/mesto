@@ -12,6 +12,6 @@
   cursor: pointer;
 }
 
-.element__group:not(.element__group_active):hover{
+.element__group:hover{
   opacity: 0.5;
 }
