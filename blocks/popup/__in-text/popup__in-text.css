@@ -1,11 +1,11 @@
 .popup__in-text{
   display: block;
   width: min(calc(238px + ((100vw - 320px) / 1.6)), 358px);
-  min-height: 27px;
+  margin: 30px auto 0 auto;
+  padding: 0 0 9px 0;
   outline: none;
   border-style: none;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-  margin: 30px auto 0 auto;
   box-sizing: border-box;
   font-family: 'Inter', Arial, sans-serif;
   font-style: normal;

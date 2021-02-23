@@ -3,7 +3,5 @@
   padding: min(calc(28px + ((100vw - 320px) / 56.47)), 45px) 0 0 0;
   min-width: 320px;
   width: min(calc(282px + ((100vw - 320px) / 1.6)), 880px);
-  padding-top: min(calc(28px + ((100vw - 320px) / 56.47)), 45px);
-  min-height: min(calc(56px + ((100vw - 320px) / 56.47)), 73px);
   border-bottom: 1px solid rgba(84, 84, 84, 0.7);
 }

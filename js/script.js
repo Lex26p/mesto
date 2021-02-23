@@ -5,8 +5,8 @@ let editBtm = document.querySelector('.profile__edit-btm'); // Кнопка от
 let popupCloseBtn = document.querySelector('.popup__close'); // Кнопка закрыть
 let profileName = document.querySelector('.profile__name'); // Имя профиля
 let profileTitle = document.querySelector('.profile__title'); // Деятельность
-let nameInput = document.querySelector('.popup__name-input'); // Форма имя
-let jobInput = document.querySelector('.popup__job-input'); // Форма деятельность
+let nameInput = document.querySelector('.popup__in-text_name-input'); // Форма имя
+let jobInput = document.querySelector('.popup__in-text_job-input'); // Форма деятельность
 let popupSubmit = document.querySelector(".popup__form"); // Сохранить
 let like = document.querySelectorAll(".element__group"); // Лайк
 

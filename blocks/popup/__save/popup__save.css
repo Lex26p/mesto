@@ -1,8 +1,8 @@
 .popup__save{
   display: block;
   width: min(calc(238px + ((100vw - 320px) / 1.6)), 358px);
-  height: 50px;
-  margin: 48px auto 0 auto;
+  height: 46px;
+  margin: 48px auto min(calc(25px + ((100vw - 320px) / 80)), 37px) auto;
   background: #000000;
   border-style: none;
   outline: none;
@@ -19,4 +19,10 @@
 
 .popup__save:hover{
   opacity: 0.8;
+}
+
+@media screen and (min-width: 800px) {
+  .popup__save{
+    height: 50px;
+  }
 }

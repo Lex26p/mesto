@@ -1,6 +1,6 @@
 .profile__title{
-  margin: 8px 0 0 0;
-  padding: 0;
+  margin: 10px auto 0 auto;
+  max-width: 90%;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
@@ -15,7 +15,8 @@
 
 @media screen and (min-width: 800px) {
   .profile__title{
+    margin: 12px 0 0 0;
     text-align: left;
-    max-width: 80%;
+    max-width: 86%;
   }
 }
