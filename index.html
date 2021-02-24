@@ -14,14 +14,25 @@
         <img src="./images/header-logo.svg" alt="Лого" class="header__logo">
       </header>
       <main class="content">
-        <div class="popup">
+        <div class="popup popup_edid-text">
           <div class="popup__container">
-            <button class="popup__close"></button>
+            <button class="popup__close popup__close_edid-text"></button>
             <p class="popup__name">Редактировать профиль</p>
-            <form class="popup__form">
+            <form class="popup__form popup__form_edid-text">
               <input type="text" class="popup__in-text popup__in-text_name-input">
               <input type="text" class="popup__in-text popup__in-text_job-input">
               <button class="popup__save">Сохранить</button>
+            </form>
+          </div>
+        </div>
+        <div class="popup popup_new-place">
+          <div class="popup__container">
+            <button class="popup__close popup__close_new-place"></button>
+            <p class="popup__name">Новое место</p>
+            <form class="popup__form popup__form_new-place">
+              <input type="text" placeholder = "Название" class="popup__in-text popup__in-text_name-place">
+              <input type="url" placeholder = "Ссылка на картинку" class="popup__in-text popup__in-text_url">
+              <button class="popup__save">Создать</button>
             </form>
           </div>
         </div>
@@ -39,6 +50,7 @@
         <section class="elements">
           <div class="element">
             <img src="./images/Milky-Way.jpg" alt="Млечный путь" class="element__img">
+            <button class="element__delete"></button>
             <div class="element__container">
               <p class="element__title">Млечный путь</p>
               <button class="element__group"></button>
@@ -46,6 +58,7 @@
           </div>
           <div class="element">
             <img src="./images/Sun.jpg" alt="Солнце" class="element__img">
+            <button class="element__delete"></button>
             <div class="element__container">
               <p class="element__title">Солнце</p>
               <button class="element__group"></button>
@@ -53,6 +66,7 @@
           </div>
           <div class="element">
             <img src="./images/Venus.jpg" alt="Венера" class="element__img">
+            <button class="element__delete"></button>
             <div class="element__container">
               <p class="element__title">Венера</p>
               <button class="element__group"></button>
@@ -60,6 +74,7 @@
           </div>
           <div class="element">
              <img src="./images/Jupier.jpg" alt="Юпитер" class="element__img">
+             <button class="element__delete"></button>
              <div class="element__container">
                <p class="element__title">Юпитер</p>
                <button class="element__group"></button>
@@ -67,6 +82,7 @@
           </div>
           <div class="element">
             <img src="./images/Saturn.jpg" alt="Сатурн" class="element__img">
+            <button class="element__delete"></button>
             <div class="element__container">
               <p class="element__title">Сатурн</p>
               <button class="element__group"></button>
@@ -74,6 +90,7 @@
           </div>
           <div class="element">
             <img src="./images/Uranus.jpg" alt="Уран" class="element__img">
+            <button class="element__delete"></button>
             <div class="element__container">
               <p class="element__title">Уран</p>
               <button class="element__group"></button>

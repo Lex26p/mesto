@@ -1,7 +1,6 @@
 .profile__name{
-  display: inline-block;
-  margin: 0;
-  padding: 0 0 0 42px;
+  margin: 0 auto 0 auto;
+  padding: 0;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
@@ -12,13 +11,13 @@
   line-height: 1.14;
   text-align: center;
   color: #FFFFFF;
-  max-width: 67%;
+ 
 }
 
 @media screen and (min-width: 800px) {
   .profile__name{
+    display: inline-block;
     text-align: left;
-    padding: 0;
     max-width: 86%;
   }
 }
